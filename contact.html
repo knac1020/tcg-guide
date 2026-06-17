@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Tokyo Card Guide (TCG)</title>
+<meta name="description" content="Contact Tokyo Card Guide for questions, corrections, or shop listing requests.">
+<link rel="canonical" href="https://tokyocardguide.com/contact.html">
+<link rel="stylesheet" href="style.css">
+<style>
+.contact-form { padding: 0 16px; }
+.form-group { margin-bottom: 16px; }
+.form-label { display: block; font-size: 12px; font-weight: 600; color: var(--color-text-secondary); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; }
+.form-input, .form-textarea {
+  width: 100%; border: 1px solid var(--color-border-strong);
+  border-radius: 10px; padding: 11px 14px; font-size: 13px;
+  color: var(--color-text); font-family: inherit; background: var(--color-bg);
+}
+.form-textarea { height: 120px; resize: vertical; }
+.form-submit {
+  display: block; width: 100%; padding: 13px;
+  background: var(--color-text); color: var(--color-bg);
+  border: none; border-radius: 10px; font-size: 14px;
+  font-weight: 600; cursor: pointer; font-family: inherit;
+}
+</style>
+</head>
+<body>
+<div id="app">
+
+  <header class="header">
+    <div class="header-top">
+      <div class="logo"><a href="index.html">🃏 Tokyo Card Guide <span>(TCG)</span></a></div>
+    </div>
+  </header>
+
+  <div class="page-content">
+    <div class="breadcrumb"><a href="index.html">Home</a> › Contact</div>
+
+    <div class="about-block">
+      <h1>Contact</h1>
+      <p>Have a question, found an error, or want to suggest a shop? We'd love to hear from you.</p>
+    </div>
+
+    <form class="contact-form" action="https://formspree.io/f/mdavjvgw" method="POST">
+      <div class="form-group">
+        <label class="form-label" for="name">Name</label>
+        <input class="form-input" type="text" id="name" name="name" placeholder="Your name" required>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="email">Email</label>
+        <input class="form-input" type="email" id="email" name="email" placeholder="your@email.com" required>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="message">Message</label>
+        <textarea class="form-textarea" id="message" name="message" placeholder="Your message..." required></textarea>
+      </div>
+      <button class="form-submit" type="submit">Send Message</button>
+    </form>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-logo">🃏 Tokyo Card Guide (TCG)</div>
+    <div class="footer-tagline">Your English-language guide to trading card shops across Tokyo — Pokémon, One Piece, MTG, Yu-Gi-Oh!, Dragon Ball and more.</div>
+    <div class="footer-links">
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="sitemap.html">Sitemap</a>
+    </div>
+    <div class="footer-areas">
+      <a href="akihabara.html">Akihabara</a>
+      <a href="ikebukuro.html">Ikebukuro</a>
+      <a href="shinjuku.html">Shinjuku</a>
+      <a href="shibuya.html">Shibuya</a>
+      <a href="nakano.html">Nakano</a>
+    </div>
+    <div class="footer-bottom">© 2026 Tokyo Card Guide. All rights reserved.</div>
+  </footer>
+
+</div>
+</body>
+</html>
